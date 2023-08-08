@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      media="screen and (min-width: 501px)"
+      rel="stylesheet"
+      type="text/css"
+      href="style_pc.css"
+    />
+    <link
+      media="screen and (max-width: 500px)"
+      rel="stylesheet"
+      type="text/css"
+      href="style_mob.css"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="result-summary-component">
+        <div class="left-side-container">
+          <p class="heading">Your Result</p>
+          <div class="circle-element">
+            <p class="big-text">76</p>
+            <p class="small-text">of 100</p>
+          </div>
+          <div class="appreciation-text">
+            <p class="big-msg">Great</p>
+            <p class="small-msg">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </div>
+        <div class="right-side-container">
+          <div class="headline">
+            Summary
+            <!-- <div class="text-box">Summary</div> -->
+          </div>
+          <div class="reaction">
+            <img src="icon-reaction.svg" />
+            Reaction
+            <p>80 / 100</p>
+          </div>
+          <div class="memory">
+            <img src="icon-memory.svg" />
+            Memory
+            <p>92 / 100</p>
+          </div>
+          <div class="verbal">
+            <img src="icon-verbal.svg" />
+            Verbal
+            <p>61 / 100</p>
+          </div>
+          <div class="visual">
+            <img src="icon-visual.svg" />
+            Visual
+            <p>72 / 100</p>
+          </div>
+          <button class="call-to-action-btn">Continue</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

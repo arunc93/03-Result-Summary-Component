@@ -1,0 +1,212 @@
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: s hsl(221, 13%, 52%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.result-summary-component {
+  width: 800px;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  /* box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.1); */
+  box-shadow: 20px 20px 50px hsla(234, 85%, 45%, 0.1);
+  background-color: white;
+}
+
+.left-side-container {
+  height: 100%;
+  width: 50%;
+  background: linear-gradient(0deg, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+/* - Light slate blue (background): hsl(252, 100%, 67%)
+- Light royal blue (background): hsl(241, 81%, 54%) */
+
+.heading {
+  font-size: 20pt;
+  color: hsl(241, 100%, 89%);
+}
+
+.circle-element {
+  border-radius: 50%;
+  width: 200px; /* Adjust the width and height to control the size of the circle */
+  height: 200px;
+  background: linear-gradient(
+    180deg,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  line-height: 0;
+}
+/* - Violet blue (circle): hsla(256, 72%, 46%, 1)
+- Persian blue (circle): hsla(241, 72%, 46%, 0) */
+
+.circle-element .big-text {
+  font-size: 60pt;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+.circle-element .small-text {
+  font-size: 15pt;
+  color: hsla(241, 100%, 89%, 0.5);
+  text-align: center;
+  margin-top: 0px;
+}
+
+.appreciation-text {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.appreciation-text .big-msg {
+  margin-top: 80px;
+  margin-bottom: 10px;
+  font-size: 20pt;
+  color: white;
+}
+
+.appreciation-text .small-msg {
+  font-size: 13pt;
+  padding: 0px 20%;
+  color: hsl(241, 100%, 89%);
+}
+
+.right-side-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+}
+
+.headline {
+  color: hsl(224, 30%, 27%);
+  font-size: 20pt;
+  height: 50px;
+  padding: 20px 0px;
+  margin-top: 20px;
+  align-items: center;
+  width: 80%;
+  text-align: left;
+}
+
+.reaction {
+  padding: 10px 20px;
+  width: 70%;
+  background-color: hsl(0, 100%, 67%, 0.1);
+  color: hsl(0, 100%, 67%);
+  border-radius: 10px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.reaction img {
+  width: 20px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.reaction p {
+  margin-left: auto;
+}
+
+.memory {
+  padding: 10px 20px;
+  width: 70%;
+  background-color: hsl(39, 100%, 56%, 0.1);
+  color: hsl(39, 100%, 56%);
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.memory img {
+  width: 20px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.memory p {
+  margin-left: auto;
+}
+
+.verbal {
+  padding: 10px 20px;
+  width: 70%;
+  background-color: hsl(166, 100%, 37%, 0.1);
+  color: hsl(166, 100%, 37%);
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.verbal img {
+  width: 20px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.verbal p {
+  margin-left: auto;
+}
+
+.visual {
+  padding: 10px 20px;
+  width: 70%;
+  background-color: hsl(234, 85%, 45%, 0.1);
+  color: hsl(234, 85%, 45%);
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.visual img {
+  width: 20px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.visual p {
+  margin-left: auto;
+}
+
+.call-to-action-btn {
+  padding: 10px 20px;
+  width: 80%;
+  height: 70px;
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  border-radius: 50px;
+  margin-top: 40px;
+  font-size: 12pt;
+  border-color: hsl(224, 30%, 27%);
+}

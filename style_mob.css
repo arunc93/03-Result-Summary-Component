@@ -1,0 +1,214 @@
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: s hsl(221, 13%, 52%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.result-summary-component {
+  width: 400px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 0px 20px 20px;
+  /* box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.1); */
+  box-shadow: 20px 20px 50px hsla(234, 85%, 45%, 0.1);
+  background-color: white;
+}
+
+.left-side-container {
+  width: 100%;
+  background: linear-gradient(0deg, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 0px 20px 20px;
+}
+/* - Light slate blue (background): hsl(252, 100%, 67%)
+- Light royal blue (background): hsl(241, 81%, 54%) */
+
+.heading {
+  margin-top: 10%;
+  font-size: 20pt;
+  color: hsl(241, 100%, 89%);
+}
+
+.circle-element {
+  border-radius: 50%;
+  width: 120px; /* Adjust the width and height to control the size of the circle */
+  height: 120px;
+  background: linear-gradient(
+    180deg,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  line-height: 0;
+}
+/* - Violet blue (circle): hsla(256, 72%, 46%, 1)
+- Persian blue (circle): hsla(241, 72%, 46%, 0) */
+
+.circle-element .big-text {
+  font-size: 35pt;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.circle-element .small-text {
+  font-size: 10pt;
+  color: hsla(241, 100%, 89%, 0.5);
+  text-align: center;
+  margin-top: 0px;
+}
+
+.appreciation-text {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.appreciation-text .big-msg {
+  margin-top: 5%;
+  margin-bottom: 10px;
+  font-size: 15pt;
+  color: white;
+}
+
+.appreciation-text .small-msg {
+  font-size: 10pt;
+  padding: 0px 10%;
+  color: hsl(241, 100%, 89%);
+  margin-bottom: 10%;
+}
+
+.right-side-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+}
+
+.headline {
+  color: hsl(224, 30%, 27%);
+  font-size: 15pt;
+  height: 40px;
+  padding: 0px 0px;
+  margin-top: 20px;
+  align-items: center;
+  width: 80%;
+  text-align: left;
+  font-weight: 600;
+}
+
+.reaction {
+  padding: 10px 20px;
+  width: 70%;
+  background-color: hsl(0, 100%, 67%, 0.1);
+  color: hsl(0, 100%, 67%);
+  border-radius: 10px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.reaction img {
+  width: 20px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.reaction p {
+  margin-left: auto;
+}
+
+.memory {
+  padding: 10px 20px;
+  width: 70%;
+  background-color: hsl(39, 100%, 56%, 0.1);
+  color: hsl(39, 100%, 56%);
+  border-radius: 10px;
+  margin-top: 10px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.memory img {
+  width: 20px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.memory p {
+  margin-left: auto;
+}
+
+.verbal {
+  padding: 10px 20px;
+  width: 70%;
+  background-color: hsl(166, 100%, 37%, 0.1);
+  color: hsl(166, 100%, 37%);
+  border-radius: 10px;
+  margin-top: 10px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.verbal img {
+  width: 20px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.verbal p {
+  margin-left: auto;
+}
+
+.visual {
+  padding: 10px 20px;
+  width: 70%;
+  background-color: hsl(234, 85%, 45%, 0.1);
+  color: hsl(234, 85%, 45%);
+  border-radius: 10px;
+  margin-top: 10px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.visual img {
+  width: 20px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.visual p {
+  margin-left: auto;
+}
+
+.call-to-action-btn {
+  padding: 10px 20px;
+  width: 80%;
+  height: 50px;
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  border-radius: 50px;
+  margin-top: 20px;
+  font-size: 12pt;
+  border-color: hsl(224, 30%, 27%);
+}
